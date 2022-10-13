@@ -1,10 +1,10 @@
 #include <stdio.h>
 /**
- * main - Entry
- * return: Always 0 (succes)
-*/
+ * main - main entry
+ * Return: Always 0 (Abiola)
+ */
 int main(void)
 {
-	printf("with proper grammar, but the outcome is a piece of art,\n);
+	printf("with proper grammar, but the outcome is a piece of art,\n");
 	return (0);
 }
