@@ -1,11 +1,10 @@
 #include <stdio.h>
 /**
- * main - Entry point
- * Description: The program with printf
- * return: Always 0
- */
+ * main - Entry
+ * return: Always 0 (succes)
+*/
 int main(void)
-i{
-	printf("with proper grammar, but the outcome is a piece of art,\n");
+{
+	printf("with proper grammar, but the outcome is a piece of art,\n);
 	return (0);
 }
