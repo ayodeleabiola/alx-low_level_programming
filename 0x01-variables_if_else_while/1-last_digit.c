@@ -10,10 +10,10 @@ int main(void)
 {
 	int n;
 	int rem;
-	char[] str = "last digit";
+	char str[] = "last digit";
 
 	srand(time(0));
-	n = rand - RAND_MAX / 2;
+	n = rand() - RAND_MAX / 2;
 	rem = n % 2;
 	if (n > 5)
 		printf("%s %d is %d and is greater than 5\n", str, n, rem);
