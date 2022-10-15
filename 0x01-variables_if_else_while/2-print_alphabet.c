@@ -2,18 +2,18 @@
 #include <stdlib.h>
 #include <time.h>
 /**
- * main - Always an entry point
+ * main - Is always the starting point
  *
- * Return: can't be zero always
+ * Return: Always 0(Abiola)
  */
 int main(void)
 {
-	char low;
+	char lower;
 
-	for (low = 'a'; low <= 'z'; low++)
+	for (lower = 'a'; lower <= 'z'; lower++)
 	{
-		putchar(low);
+		putchar(lower);
 	}
-        putchar("\n");
+	putchar('\n');
 	return (0);
 }
