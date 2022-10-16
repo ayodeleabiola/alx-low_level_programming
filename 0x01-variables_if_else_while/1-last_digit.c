@@ -17,13 +17,13 @@ int main(void)
 	{
 		printf("%s %d is %d and is greater than 5\n", str, n, n % 10);
 	}
-	else if ((n % 10) == 0)
+	else if ((n % 10) < 6 && (n % 10 != 0)
 	{
-		printf("%s %d is %d and is 0\n", str, n, n % 10);
+		printf("%s %d is %d and is less than 6 and not 0\n", str, n, n % 10);
 	}
 	else
 	{
-		printf("%s %d is %d and is less than 6 and not 0\n", str, n, n % 10);
+		printf("%s %d is %d and is 0\n", str, n, n % 10);
 	}
 	return (0);
 }
