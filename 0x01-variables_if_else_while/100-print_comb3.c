@@ -17,8 +17,8 @@ int main(void)
 			if (dig1 == 8 && dig2 == 9)
 			{
 				continue;
-				_putchar(',');
-				_putchar('');
+				putchar(',');
+				putchar(',');
 			}
 		}
 	}
