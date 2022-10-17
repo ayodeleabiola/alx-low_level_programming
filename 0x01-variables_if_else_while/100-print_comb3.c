@@ -15,11 +15,11 @@ int main(void)
 			putchar((dig1 % 10) + '0');
 			putchar((dig2 % 10) + '0');
 			if (dig1 == 8 && dig2 == 9)
-			
+			{
 				continue;
-			putchar(',');
-			putchar(' ');
-			
+			}
+		putchar(',');
+		putchar(' ');
 		}
 	}
 	putchar('\n');
