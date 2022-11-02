@@ -1,4 +1,5 @@
-#include  "amin.h"
+#include  "main.h"
+#include <stdio.h>
 /**
  *main - check code for alx  student
  *
