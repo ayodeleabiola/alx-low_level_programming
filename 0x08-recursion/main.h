@@ -18,5 +18,6 @@ int is_palindrome(char *s);
 int wildcmp(char *s1, char *s2);
 int _sqrt(int n, int x);
 int is_prime(int n, int start);
-
+int check_palindrome(char *s, int len, int index);
+int find_strlen(char *s);
 #endif
