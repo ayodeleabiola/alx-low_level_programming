@@ -78,7 +78,6 @@ int get_digit(char c)
  *@mult: The string of numbers.
  *@digit: The single digit.
  *@zeroes: The necessary number of leading zeroes
- *
  *@Description: If mult contains a non-digit, the function
  *	exits with a status value of 98.
  */
@@ -108,6 +107,7 @@ void get_prod(char *prod, char *mult, int digit, int zeroes)
 		}
 		num = (*mult - '0') * digit;
 		num += tens;
+		*prod = (num % 10) + '0';
 		tens = num / 10;
 	}
 	if (tens)
