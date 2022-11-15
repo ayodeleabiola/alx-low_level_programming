@@ -1,5 +1,5 @@
-#ifndef SUM_H
-#define SUM_H
+#ifndef SUM_LIKE_MACRO
+#define SUM_LIKE_MACRO	
 /**
  *File: 4-sum.h
  *Auth: Ayodele Abiola
