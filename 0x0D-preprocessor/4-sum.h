@@ -1,5 +1,5 @@
-#ifndef SUM_H
-#define SUM_H
+#ifndef 4-SUM_H
+#define 4-SUM_H
 /**
  *File: 4-sum.h
  *Auth: Ayodele Abiola
