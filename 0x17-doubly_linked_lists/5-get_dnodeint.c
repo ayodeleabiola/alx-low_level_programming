@@ -1,16 +1,19 @@
 #include "lists.h"
 /**
- * free_dlistint - Frees a linked dlistint_t list.
+ * get_dnodeint_at_index - Locates a node in a dlistint_t list.
  * @head: The head of the dlistint_t list.
+ * @index: The node to locate.
+ *
+ * Return: If the node does not exist - NULL.
+ *         Otherwise - the address of the located node.
  */
-void free_dlistint(dlistint_t *head)
+dlistint_t *get_dnodeint_at_index(dlistint_t *head, unsigned int index)
 {
-	dlistint_t *tmp;
-
-	while (head)
+	for (; index != 0; index--)
 	{
-		tmp = head->next;
-		free(head);
-		head = tmp;
+		if (head == NULL)
+			return (NULL);
+		head = head->next;
 	}
+	return (head);
 }
